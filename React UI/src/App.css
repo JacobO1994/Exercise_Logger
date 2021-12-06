@@ -1,0 +1,45 @@
+body {
+  background-color: #252422;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #EB5E28;
+}
+
+.App-link {
+  color: #fffb18;
+}
+
+table{
+  border-collapse: collapse;
+  background-color: #CCC5B9;
+  color: black;
+}
+
+td, th {
+  border: 2px solid #716969;
+  padding: 10px;
+  
+}
+
+tr:nth-child(even){background-color: #403D39;}
+
+tr:hover {background-color: #EB5E28;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0F0F0F;
+  color: rgb(182, 181, 181);
+}
